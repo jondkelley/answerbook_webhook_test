@@ -8,7 +8,7 @@ pip3 install answerbook_webhook_test
 
 python setup.py install
 
-# If your local system has dependency issues, 
+# If your system has Python dependency issues, use virtual python environments!
 pip3 install virtualenv
 
 virtualenv venv_testwebhook
