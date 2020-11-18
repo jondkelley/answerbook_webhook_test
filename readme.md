@@ -7,6 +7,13 @@ pip3 install answerbook_webhook_test
 #or
 
 python setup.py install
+
+# If your local system has dependency issues, 
+pip3 install virtualenv
+
+virtualenv venv_testwebhook
+source ./venv_testwebhook/bin/activate
+pip3 install answerbook_webhook_test
 ```
 
 ## Environment Variables
@@ -32,6 +39,9 @@ LISTEN_PORT=80
 *LISTEN_PORT* - set bind port
 
 ## Run Server
+
+NOTE: If running inside virtualenv you can simply run `sudo --preserve-env=LOGDNA_AGENT_KEY answerbook_webhook_test`
+
 ```
 sudo --preserve-env=LOGDNA_AGENT_KEY /usr/local/bin/answerbook_webhook_test
 ```
