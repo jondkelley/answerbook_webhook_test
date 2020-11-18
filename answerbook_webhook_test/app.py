@@ -97,4 +97,4 @@ def catch_all(path):
 @click.command()
 def cli():
     app.run(host=os.environ.get('LISTEN_HOST', '0.0.0.0'),
-            port=os.environ.get('LISTEN_PORT', 80))
+            port=int(os.environ.get('LISTEN_PORT', 80)))
