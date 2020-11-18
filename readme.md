@@ -38,7 +38,7 @@ LISTEN_PORT=80
 
 *LISTEN_PORT* - set bind port
 
-## Run Server
+## Run Server to recieve webhooks
 
 NOTE: If running inside virtualenv you can simply run `sudo --preserve-env=LOGDNA_AGENT_KEY answerbook_webhook_test`
 
