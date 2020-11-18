@@ -15,7 +15,7 @@ You will set up environment variables to modify behavior, here's a table of opti
 
 ```
 LOGDNA_AGENT_KEY=FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-LOGDNA_URL=https://logs.logdna.com/logs/ingest
+LOGDNA_URL=
 OUTPUT_FILE=output.txt
 LISTEN_HOST=0.0.0.0
 LISTEN_PORT=80
