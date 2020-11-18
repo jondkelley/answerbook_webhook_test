@@ -23,7 +23,7 @@ LISTEN_PORT=80
 
 *LOGDNA_AGENT_KEY* - optional, will not log to platform if unset
 
-*LOGDNA_URL* - override default platform url
+*LOGDNA_URL* - override default platform url, default comes from library
 
 *OUTPUT_FILE* - override default log file to output to
 
