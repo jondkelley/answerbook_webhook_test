@@ -2,7 +2,7 @@
 
 ## Install
 ```
-pip install answerbook_webhook_test
+pip3 install answerbook_webhook_test
 
 #or
 
