@@ -22,9 +22,13 @@ LISTEN_PORT=80
 ```
 
 *LOGDNA_AGENT_KEY* - optional, will not log to platform if unset
+
 *LOGDNA_URL* - override default platform url
+
 *OUTPUT_FILE* - override default log file to output to
+
 *LISTEN_HOST* - set bind host
+
 *LISTEN_PORT* - set bind port
 
 ## Run Server
